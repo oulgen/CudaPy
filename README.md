@@ -223,6 +223,3 @@ Here is the Mandelbrot image:
 We got our inspiration for CudaPy form a system called VecPy. VecPy was last year's winner at [15-418 Parallelism competition](http://15418.courses.cs.cmu.edu/spring2014/competition). As in its creator's words, VecPy "leverages multi-threading and SIMD instructions on modern x86 processors." CudaPy goes in a different direction and adds GPU level parallelism. We also have a less strict type system: VecPy compiles code for a single type like `int` or `float` where as CudaPy kernels can take an arbitrary signature of base types (these include `void`, `bool`, `int`, `float`, `double`, and possibly nested arrays on these types). Finally, CudaPy had some extra challenges VecPy did not have such as handling separate device and host memory, and interfacing with the CUDA runtime.
 
 # References
-
-# Work Division
-Equal work was performed by both project members.
