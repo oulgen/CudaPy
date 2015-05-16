@@ -194,8 +194,8 @@ In this section, we want to give a general idea of just how fast CudaPy is. This
 
 We implemented several functions using CudaPy and NumPy in what we think is the most efficient way. We then timed the execution of these programs over large datasets for many iterations. Below, we give the total execution time of each function over the same dataset. The running time of matrix multiplication and Mandelbrot include the cost of copying data to and from the device memory. Since SAXPY is bandwidth bounded, this would make no sense so copying costs are excluded. This is justified since SAXPY could be part of a larger computation, and the intermediate date would be kept on device memory.
 
-![Timing](img/runtime.png)
-![Speedup](img/speedup.png)
+![Timing](http://418.oulgen.com/img/runtime.png)
+![Speedup](http://418.oulgen.com/img/speedup.png)
 
 
 These results were attained on the following computer:
@@ -215,7 +215,7 @@ VRAM: 1024MB
 ```
 
 Here is the Mandelbrot image:
-![Mandel](img/mandel.png)
+![Mandel](http://418.oulgen.com/img/mandel.png)
 
 
 # Related Work
